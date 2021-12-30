@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component }  from 'react';
 import { Navbar, NavbarBrand, Jumbotron } from 'reactstrap';
 
 class Header extends Component {
@@ -10,11 +10,11 @@ class Header extends Component {
                         <div className="row">
                             <div className="col">
                                 <h1>NuCamp</h1>
-                                <h2>A better way to camp</h2>
+                                <h2>a better way to camp</h2>
                             </div>
                         </div>
-                    </div>    
-                <Jumbotron/>
+                    </div>
+                </Jumbotron>
 
                 <Navbar dark sticky="top">
                     <div className="container">
